@@ -1,0 +1,7 @@
+services:
+
+  redis:
+    image: redis:7.4.0-bookworm
+    container_name: redis
+    tty: true
+    
